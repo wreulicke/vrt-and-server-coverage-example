@@ -1,0 +1,20 @@
+{
+  "name": "vrt-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "start": "node src/server.js",
+    "start:cov": "nyc npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@playwright/test": "^1.51.1",
+    "express": "^5.1.0",
+    "nyc": "^17.1.0",
+    "v8-to-istanbul": "^9.3.0"
+  }
+}
